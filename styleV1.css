@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500|Roboto+Slab:400,500&display=swap);
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+
+body{
+	background-color: #FFFFFF;
+} 
+
+.header{
+	text-align: center;
+	margin:0px;
+}
+
+h1{
+	color: #FFE4CF;
+	font-family: 'Poppins', serif;
+	font-size: 35px;
+	text-align: center;
+}
+
+form{
+	font-family: 'Poppins', serif;
+	font-size: 20px;
+	text-align: center;
+} 
+
+input{
+	font-family: 'Poppins', serif;
+	font-size: 15px;
+	width: 800px;
+	text-align: center;
+	margin: 13px;
+	background-color:rgba(240,240,240,0.5);
+	color: #FFFFFF;
+}
+
+button{
+	font-family: 'Poppins', serif;
+	font-size: 15px;
+	border-radius: 5px;
+	color: black;
+}
+
+button:hover{
+	background-color: #FFE4CF;
+}
+
+.container{
+	position:relative;
+}
+
+.btn-saumon {
+	position: absolute;
+	float: right;
+	font-family: 'Poppins', serif;
+	background-color: #FFE4CF;
+	color:black;
+	padding: 15px 30px;
+	border-radius: 5px;
+	width: 170px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.btn-saumon:hover {
+	background-color:#FFFFFF;
+	color:black;
+}
+
+.connect{
+	left: 0;
+}
+
+.create{
+	right: 0;
+}
+
+.banner h1{
+	background-image: url(images/Assorteddresses.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 140px;
+}
+
+h3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	margin: 12px;
+	flex-basis: 250px;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.card img {
+	width: 180px;
+	border-radius: 6px;
+}
+
+.card h3 {
+	flex-grow: 1;
+	padding-left: 20px;
+	font-size: 18px;
+}
